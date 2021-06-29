@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Set Credentials",
+        "content": "git config user.name \"judigot\"\ngit config user.email \"judigot@gmail.com\"\ngit config --global user.name \"judigot\"\ngit config --global user.email \"judigot@github.com\"\n"
+    },
+    {
+        "title": "Upload Project Folder Files/Override Repository",
+        "content": "git init\ngit add .\ngit commit -m \"Commit\"\ngit remote add origin https://github.com/judigot/(?)\ngit remote -v\ngit push -f origin master\ngit status"
+    },
+    {
+        "title": "Download Files/Repository",
+        "content": "git init\ngit remote add origin https://github.com/judigot/(?)\ngit pull origin master\ngit status"
+    },
+    {
+        "title": "Save Changes",
+        "content": "git add .\ngit commit -m \"Commit\"\ngit push -f origin master\ngit status"
+    },
+    {
+        "title": "Delete All Files",
+        "content": "git init\ngit remote add origin https://github.com/judigot/(?)\ngit pull origin master\ngit rm -r *\ngit commit -m \"Delete\"\ngit push -f origin master\ngit status"
+    },
+    {
+        "title": "Delete Individual Files",
+        "content": "git init\ngit remote add origin https://github.com/judigot/(?)\ngit pull origin master\ngit rm file.txt\ngit commit -m \"Delete\"\ngit push -f origin master\ngit status"
+    }
+]

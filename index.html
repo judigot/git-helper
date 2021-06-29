@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Git Clipboard</title>
+
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script type="text/javascript" src="SampleComponent.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+    <style>
+        * {
+            outline: none;
+            /* Dark Mode */
+            color: #CCCCCC;
+            background-color: #222222;
+            text-align: center;
+            user-select: none;
+        }
+
+        body {
+            /* font-size: 70%; */
+            display: block;
+            overflow: auto;
+        }
+
+        input {
+            background-color: transparent;
+            font-size: 50px;
+            margin: 20px;
+        }
+
+        .command {
+            font-size: 30px;
+            cursor: grab;
+            text-align: center;
+            /* margin: 200px; */
+            /* padding: 200px; */
+        }
+
+        .command:hover {
+            background-color: #111111;
+            /* border: 1px solid gray; */
+        }
+
+        code {
+            /* background-color: black; */
+            font-size: 15px;
+            display: block;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Git Clipboard</h1>
+    <hr>
+    <input type="text" name="" id="repositoryName">
+    <br>
+    <div id="root"></div>
+    <br><br><br>
+    <code id="clipboard"></code>
+</body>
+
+</html>
