@@ -14,5 +14,13 @@
     {
         "title": "Save Changes",
         "content": "git add .\ngit commit -m \"Commit\"\ngit push -f origin master\ngit status"
+    },
+    {
+        "title": "Delete All Files",
+        "content": "git init\ngit remote add origin https://github.com/judigot/(?)\ngit pull origin master\ngit rm -r *\ngit commit -m \"Delete\"\ngit push -f origin master\ngit status"
+    },
+    {
+        "title": "Delete Individual Files",
+        "content": "git init\ngit remote add origin https://github.com/judigot/(?)\ngit pull origin master\ngit rm file.txt\ngit commit -m \"Delete\"\ngit push -f origin master\ngit status"
     }
 ]
