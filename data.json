@@ -13,6 +13,6 @@
     },
     {
         "title": "Save Changes",
-        "content": "git add .\ngit commit -m \"Commit\"\ngit push -f origin main\ngit status"
+        "content": "git add .\ngit commit -m \"Commit\"\ngit push -u origin\ngit status"
     }
 ]
