@@ -5,14 +5,14 @@
     },
     {
         "title": "Upload Project Folder Files/Override Repository",
-        "content": "git init\ngit add .\ngit commit -m \"Commit\"\ngit remote add origin https://github.com/judigot/(?)\ngit remote -v\ngit push -f origin main\ngit status"
+        "content": "git init\ngit add .\ngit commit -m \"Commit\"\ngit remote add origin https://github.com/judigot/(?)\ngit remote -v\ngit push -f origin\ngit status"
     },
     {
         "title": "Download Files/Repository",
-        "content": "git init\ngit remote add origin https://github.com/judigot/(?)\ngit pull origin main\ngit status"
+        "content": "git init\ngit remote add origin https://github.com/judigot/(?)\ngit pull origin\ngit status"
     },
     {
         "title": "Save Changes",
-        "content": "git add .\ngit commit -m \"Commit\"\ngit push -f origin main\ngit status"
+        "content": "git add .\ngit commit -m \"Commit\"\ngit push -f origin\ngit status"
     }
 ]
