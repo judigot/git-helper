@@ -3,8 +3,6 @@ window.onload = function () {
 
   const pageName = window.location.pathname.split("/").pop();
 
-  alert(pageName);
-
   let commands = [];
 
   //==========Ajax==========//
