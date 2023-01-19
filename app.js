@@ -13,7 +13,7 @@ window.onload = function () {
     dataType: "json",
   })
     .done(function (gitCommands) {
-      if (pageName === "index.html") {
+      if (pageName === "index.html" || "") {
         commands = gitCommands;
       }
       if (pageName === "delete.html") {
