@@ -1,0 +1,10 @@
+[
+  {
+    "title": "📂➜🗑️😔 Delete Individual Files",
+    "content": "git init\ngit remote add origin https://github.com/judigot/<repositoryName>\ngit pull origin <branch>\ngit rm file.txt\ngit commit -m \"Delete\"\ngit push -f origin <branch>\ngit status"
+  },
+  {
+    "title": "📂📂📂📂➜🗑️😢 Delete All Files",
+    "content": "git init\ngit remote add origin https://github.com/judigot/<repositoryName>\ngit pull origin <branch>\ngit rm -r *\ngit commit -m \"Delete\"\ngit push -f origin <branch>\ngit status"
+  }
+]

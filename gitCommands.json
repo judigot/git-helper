@@ -1,0 +1,22 @@
+[
+  {
+    "title": "⚙️ Set User Credentials",
+    "content": "git config user.name \"judigot\"\ngit config user.email \"judigot@gmail.com\"\ngit config --global user.name \"judigot\"\ngit config --global user.email \"judigot@github.com\"\n"
+  },
+  {
+    "title": "⬇️ Download Files/Repository",
+    "content": "git init\ngit remote add origin https://github.com/judigot/<repositoryName>\ngit pull origin <branch>\ngit status"
+  },
+  {
+    "title": "🆕 Download Changes (Update Local Version)",
+    "content": "git pull origin <branch>\ngit status"
+  },
+  {
+    "title": "⚠️ Upload & Replace Remote Repository Files",
+    "content": "git init\ngit remote add origin https://github.com/judigot/<repositoryName>\ngit add .\ngit commit -m \"Commit\"\ngit remote -v\ngit push -f origin <branch>\ngit status"
+  },
+  {
+    "title": "💾 Upload & Save Changes",
+    "content": "git add .\ngit commit -m \"Commit\"\ngit push -u origin <branch>\ngit status"
+  }
+]
