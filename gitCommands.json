@@ -5,7 +5,7 @@
   },
   {
     "title": "⬇️ Download Files/Repository",
-    "content": "git init\ngit remote add origin https://github.com/judigot/<repositoryName>\ngit pull origin <branch>\ngit status"
+    "content": "git clone https://github.com/judigot/<repositoryName> .\ngit status"
   },
   {
     "title": "🆕 Download Changes (Update Local Version)",
