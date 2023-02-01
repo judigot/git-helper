@@ -14,13 +14,11 @@ class Commands extends React.Component {
 
   handleClick(commands, event) {
     var repositoryName = document.getElementById("repositoryName").value;
-    var branch = document.getElementById("branch").value;
 
     var title = commands.title;
 
     // Replace placeholders
     var command = commands.content.replace("<repositoryName>", repositoryName);
-    command = command.replace("<branch>", branch);
 
     var element = document.createElement("textarea");
     element.value = command;
@@ -39,7 +37,13 @@ class Commands extends React.Component {
       document.getElementById("quicklog").remove();
     }
 
-    var QuickLog = `Command copied to clipboard`; var q = document.createElement("div"); q.setAttribute("id", "quicklog"); document.body.appendChild( Object.assign(q, { textContent: QuickLog }) ).style.cssText = "z-index: 1000; filter: invert(0%); color: black !important; background-color: #FFF000; font: bold 25px Comic Sans MS; box-shadow: 0px 0px 5px 1px white; padding: 5px; border: 3px solid black; border-radius: 10px; top: 10px; left: 10px; position: fixed;";
+    var QuickLog = `Command copied to clipboard`;
+    var q = document.createElement("div");
+    q.setAttribute("id", "quicklog");
+    document.body.appendChild(
+      Object.assign(q, { textContent: QuickLog })
+    ).style.cssText =
+      "z-index: 1000; filter: invert(0%); color: black !important; background-color: #FFF000; font: bold 25px Comic Sans MS; box-shadow: 0px 0px 5px 1px white; padding: 5px; border: 3px solid black; border-radius: 10px; top: 10px; left: 10px; position: fixed;";
 
     const timeout = setTimeout(() => {
       q.remove();

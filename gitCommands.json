@@ -9,14 +9,14 @@
   },
   {
     "title": "🆕 Download Changes (Update Local Version)",
-    "content": "git pull origin <branch>\ngit status"
+    "content": "git pull origin\ngit status"
   },
   {
     "title": "⚠️ Upload & Replace Remote Repository Files",
-    "content": "git init\ngit remote add origin https://github.com/judigot/<repositoryName>\ngit add .\ngit commit -m \"Commit\"\ngit remote -v\ngit push -f origin <branch>\ngit status"
+    "content": "git init\ngit remote add origin https://github.com/judigot/<repositoryName>\ngit add .\ngit commit -m \"Commit\"\ngit remote -v\ngit push -f origin main\ngit status"
   },
   {
     "title": "💾 Upload & Save Changes",
-    "content": "git add .\ngit commit -m \"Commit\"\ngit push -u origin <branch>\ngit status"
+    "content": "git add .\ngit commit -m \"Commit\"\ngit push origin\ngit status"
   }
 ]
