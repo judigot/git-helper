@@ -1,7 +1,7 @@
 [
   {
     "title": "⚙️ Set User Credentials",
-    "content": "git config user.name \"judigot\"\ngit config user.email \"judigot@gmail.com\"\ngit config --global user.name \"judigot\"\ngit config --global user.email \"judigot@github.com\"\n"
+    "content": "git config user.name \"judigot\"\ngit config user.email \"judigot@gmail.com\"\ngit config --global user.name \"judigot\"\ngit config --global user.email \"judigot@gmail.com\"\n"
   },
   {
     "title": "⬇️ Download Files/Repository",
