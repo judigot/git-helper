@@ -5,7 +5,7 @@
   },
   {
     "title": "⬇️ Download Files/Repository",
-    "content": "git clone https://github.com/judigot/<repositoryName> .\ngit status"
+    "content": "git clone git@github.com:judigot/<repositoryName>.git .\ngit status"
   },
   {
     "title": "🆕 Download Changes (Update Local Version)",
