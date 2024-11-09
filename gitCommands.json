@@ -12,8 +12,8 @@
     "content": "git pull origin\ngit status"
   },
   {
-    "title": "⚠️ Upload & Replace Remote Repository Files",
-    "content": "git init\ngit add .\ngit commit -m \"Commit\"\ngit remote add origin git@github.com:judigot/<repositoryName>.git\ngit push -f origin main\ngit status"
+    "title": "⚠️ Upload New Project or Replace Remote Repository Files",
+    "content": "git init\ngit add .\ngit commit -m \"Commit\"\ngit remote add origin git@github.com:judigot/<repositoryName>.git\ngit push origin main\ngit status"
   },
   {
     "title": "💾 Upload & Save Changes",
